@@ -1,0 +1,894 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1dhbinx2flvx"]
+
+[ext_resource type="Texture2D" uid="uid://bl0sbtavd85d7" path="res://Background/New Piskel-1.png(39).png" id="1_3h71n"]
+[ext_resource type="Texture2D" uid="uid://cf5qwx7is7s6p" path="res://Background/BackBack-1.png(8).png" id="2_rym4u"]
+[ext_resource type="Texture2D" uid="uid://c78iatnhisoiw" path="res://Background/BackBack-1.png(1).png" id="3_2824c"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1168, 0)
+
+[node name="BackBack" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(584, 328)
+scale = Vector2(2.28125, 1.28125)
+texture = ExtResource("1_3h71n")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1168, 0)
+
+[node name="BackFloor" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(8, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(24, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(40, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(56, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(72, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(88, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(104, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor8" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(120, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor9" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(136, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor10" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(152, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor11" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(168, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor12" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(184, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor13" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(200, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor14" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(216, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor15" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(232, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor16" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(248, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor17" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(264, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor18" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(280, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor19" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(296, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor20" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(312, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor21" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(328, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor22" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(344, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor23" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(360, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor24" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(376, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor25" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(392, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor26" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(408, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor27" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(424, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor28" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(440, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor29" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(456, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor30" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(472, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor31" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(488, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor32" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(504, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor33" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(520, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor34" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(536, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor35" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(552, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor36" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(568, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor37" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(584, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor38" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(600, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor39" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(616, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor40" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(632, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor41" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(648, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor42" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(664, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor43" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(680, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor44" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(696, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor45" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(712, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor46" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(728, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor47" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(744, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor48" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(760, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor49" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(776, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor50" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(792, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor51" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(808, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor52" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(824, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor53" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(840, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor54" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(856, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor55" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(872, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor56" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(888, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor57" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(904, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor58" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(920, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor59" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(936, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor60" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(952, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor61" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(968, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor62" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(984, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor63" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1000, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor64" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1016, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor65" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1032, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor66" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1048, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor67" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1064, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor68" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1080, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor69" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1096, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor70" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1112, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor71" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1128, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor72" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1144, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor73" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1160, 648)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor74" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(8, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor75" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(24, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor76" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(40, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor77" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(56, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor78" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(72, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor79" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(88, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor80" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(104, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor81" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(120, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor82" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(136, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor83" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(152, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor84" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(168, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor85" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(184, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor86" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(200, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor87" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(216, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor88" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(232, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor89" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(248, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor90" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(264, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor91" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(280, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor92" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(296, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor93" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(312, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor94" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(328, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor95" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(344, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor96" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(360, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor97" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(376, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor98" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(392, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor99" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(408, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor100" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(424, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor101" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(440, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor102" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(456, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor103" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(472, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor104" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(488, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor105" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(504, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor106" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(520, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor107" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(536, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor108" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(552, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor109" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(568, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor110" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(584, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor111" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(600, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor112" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(616, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor113" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(632, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor114" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(648, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor115" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(664, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor116" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(680, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor117" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(696, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor118" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(712, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor119" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(728, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor120" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(744, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor121" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(760, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor122" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(776, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor123" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(792, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor124" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(808, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor125" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(824, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor126" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(840, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor127" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(856, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor128" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(872, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor129" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(888, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor130" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(904, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor131" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(920, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor132" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(936, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor133" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(952, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor134" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(968, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor135" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(984, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor136" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1000, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor137" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1016, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor138" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1032, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor139" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1048, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor140" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1064, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor141" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1080, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor142" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1096, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor143" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1112, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor144" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1128, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor145" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1144, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackFloor146" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1160, 632)
+texture = ExtResource("2_rym4u")
+
+[node name="BackBack-1_png(1)" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(8, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(24, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(40, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(56, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(72, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(88, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(104, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)8" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(120, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)9" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(136, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)10" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(152, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)11" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(168, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)12" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(184, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)13" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(200, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)14" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(216, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)15" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(232, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)16" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(248, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)17" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(264, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)18" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(280, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)19" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(296, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)20" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(312, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)21" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(328, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)22" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(344, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)23" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(360, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)24" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(376, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)25" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(392, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)26" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(408, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)27" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(424, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)28" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(440, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)29" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(456, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)30" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(472, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)31" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(488, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)32" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(504, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)33" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(520, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)34" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(536, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)35" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(552, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)36" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(568, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)37" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(584, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)38" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(600, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)39" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(616, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)40" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(632, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)41" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(648, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)42" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(664, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)43" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(680, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)44" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(696, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)45" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(712, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)46" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(728, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)47" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(744, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)48" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(760, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)49" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(776, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)50" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(792, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)51" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(808, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)52" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(824, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)53" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(840, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)54" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(856, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)55" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(872, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)56" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(888, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)57" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(904, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)58" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(920, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)59" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(936, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)60" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(952, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)61" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(968, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)62" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(984, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)63" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1000, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)64" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1016, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)65" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1032, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)66" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1048, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)67" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1064, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)68" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1080, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)69" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1096, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)70" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1112, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)71" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1128, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)72" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1144, 616)
+texture = ExtResource("3_2824c")
+
+[node name="BackBack-1_png(1)73" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1160, 616)
+texture = ExtResource("3_2824c")

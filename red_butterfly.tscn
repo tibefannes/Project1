@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://fwph2f2mxtpu"]
+
+[ext_resource type="Script" path="res://red_butterfly.gd" id="1_uha4w"]
+[ext_resource type="Texture2D" uid="uid://b8cienuwnuacg" path="res://Butterfly/New Piskel-1.png(42).png" id="1_v4sva"]
+[ext_resource type="Texture2D" uid="uid://cmddhdfe1bg52" path="res://Butterfly/New Piskel-1.png(46).png" id="2_kvnjn"]
+[ext_resource type="Texture2D" uid="uid://dnmr3lm81ulms" path="res://Butterfly/bf.png" id="3_oi62d"]
+[ext_resource type="Texture2D" uid="uid://c5cbfnsjwlww1" path="res://Butterfly/red.png" id="4_3a4gy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wab67"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_3a4gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_3a4gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kvnjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_v4sva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kvnjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kvnjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_oi62d")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 16.0
+}]
+
+[node name="RedButterfly" type="CharacterBody2D"]
+script = ExtResource("1_uha4w")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_wab67")
+animation = &"idle"

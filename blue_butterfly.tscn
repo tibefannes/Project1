@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://dbps0taxoliet"]
+
+[ext_resource type="Texture2D" uid="uid://ckph1b4qglmpd" path="res://Butterfly/New Piskel-1.png(38).png" id="1_345jh"]
+[ext_resource type="Script" path="res://blue_butterfly.gd" id="1_ek4jd"]
+[ext_resource type="Texture2D" uid="uid://bh03uknhqthka" path="res://Butterfly/New Piskel-1.png(45).png" id="2_suuqf"]
+[ext_resource type="Texture2D" uid="uid://dnmr3lm81ulms" path="res://Butterfly/bf.png" id="4_11hhi"]
+[ext_resource type="Texture2D" uid="uid://bcnyoda6tinc3" path="res://Butterfly/New Piskel-1.png.png" id="4_b0nts"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i0kqb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_345jh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_suuqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_suuqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_11hhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_b0nts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_b0nts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_suuqf")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 15.0
+}]
+
+[node name="BlueButterfly" type="CharacterBody2D"]
+script = ExtResource("1_ek4jd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_i0kqb")
+animation = &"idle"
