@@ -1,10 +1,22 @@
-[gd_scene load_steps=8 format=3 uid="uid://4cm8ht7qg4x0"]
+[gd_scene load_steps=20 format=3 uid="uid://4cm8ht7qg4x0"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_2ouq5"]
 [ext_resource type="Texture2D" uid="uid://c2vu8a08m6d6i" path="res://MainCharacter/op2.png" id="2_3x7yy"]
 [ext_resource type="Texture2D" uid="uid://vvgf0y6ldagl" path="res://MainCharacter/octopus-1.png(1).png" id="2_r3cuk"]
 [ext_resource type="Texture2D" uid="uid://c2rui0dmt0uis" path="res://MainCharacter/oct5.png" id="5_3yn3v"]
+[ext_resource type="Texture2D" uid="uid://bqjkytpw557il" path="res://MainCharacter/azer.png" id="6_1qn5h"]
 [ext_resource type="Texture2D" uid="uid://bw8x7c14kp024" path="res://MainCharacter/oct3.png" id="6_8c7mg"]
+[ext_resource type="Texture2D" uid="uid://djedbucnbkdcg" path="res://MainCharacter/jom.png" id="7_ks8xx"]
+[ext_resource type="Texture2D" uid="uid://cyh3y64kjhsdh" path="res://MainCharacter/jpù.png" id="8_gpukm"]
+[ext_resource type="Texture2D" uid="uid://chljhk08h4s8b" path="res://MainCharacter/gjkl.png" id="9_gds5n"]
+[ext_resource type="Texture2D" uid="uid://cr63187xlmpgh" path="res://MainCharacter/xbn.png" id="10_7xx2u"]
+[ext_resource type="Texture2D" uid="uid://btqd70n5imxa" path="res://MainCharacter/Eyj.png" id="11_lr5rk"]
+[ext_resource type="Texture2D" uid="uid://wxr8imylwh7y" path="res://MainCharacter/ZET.png" id="12_htu2f"]
+[ext_resource type="Texture2D" uid="uid://dq3mxiiyper0q" path="res://MainCharacter/eztc.png" id="13_sm7j1"]
+[ext_resource type="Texture2D" uid="uid://cxx14n0e10epn" path="res://MainCharacter/t(ju.png" id="14_qyiqv"]
+[ext_resource type="Texture2D" uid="uid://pmok4steck78" path="res://MainCharacter/ev.png" id="15_4mgbj"]
+[ext_resource type="Texture2D" uid="uid://dasr8ym2b7dy6" path="res://MainCharacter/rqy.png" id="16_3a3fe"]
+[ext_resource type="Texture2D" uid="uid://bncok1yfwyq76" path="res://MainCharacter/bn;.png" id="17_wsqxg"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_eam7l"]
 radius = 6.0
@@ -40,6 +52,82 @@ animations = [{
 "loop": true,
 "name": &"idle",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_1qn5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ks8xx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_gpukm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gds5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7xx2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_lr5rk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_htu2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_sm7j1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qyiqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4mgbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_3a3fe")
+}],
+"loop": true,
+"name": &"run",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_1qn5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_wsqxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_gpukm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gds5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7xx2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_lr5rk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_htu2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_sm7j1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qyiqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4mgbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_3a3fe")
+}],
+"loop": true,
+"name": &"runslow",
+"speed": 15.0
 }]
 
 [node name="Player" type="CharacterBody2D"]
@@ -50,9 +138,9 @@ position = Vector2(0, -7)
 shape = SubResource("CapsuleShape2D_eam7l")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -7)
+position = Vector2(2, -6)
 sprite_frames = SubResource("SpriteFrames_wjb6o")
-animation = &"idle"
+animation = &"runslow"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
